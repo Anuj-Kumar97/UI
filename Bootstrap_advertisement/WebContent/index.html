@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>First Bootstrap demo</title>
+	<!-- JQuery API -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Icons -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<!-- Bootstrap css framework -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Bootstrap JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/myapp.css">
+</head>
+<body>
+<style>
+body {
+  background-image: url('img/hero-bg1.jpg');
+}
+</style>
+	<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  		<a class="navbar-brand" href="#">OLX</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="			navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    		<ul class="navbar-nav mr-auto">
+      			<li class="nav-item active">
+        			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      				</li>
+      					<li class="nav-item">
+        					<a class="nav-link" href="#">About</a>
+      					</li>
+      					<li class="nav-item dropdown">
+        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 							aria-haspopup="true" aria-expanded="false">
+          						Country
+        					</a>
+       						 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          						<a class="dropdown-item" href="#">India</a>
+          						<a class="dropdown-item" href="#">Russia</a>
+          						<a class="dropdown-item" href="#">United Kingdom</a>
+          						<a class="dropdown-item" href="#">United States Of America</a>
+        					</div>
+      					</li>
+    		</ul>
+    	<form class="form-inline my-2 my-lg-0">
+      		<input class="form-control mr-sm-2" type="search" placeholder="Find your product.." aria-label="Search">
+      		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>&nbsp;
+        	<button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
+          <span class="glyphicon glyphicon-log-out"></span> Log Out
+        </button>
+    	</form>
+  	</div>
+</nav>
+</header>
+<div class="mycustom">
+	<h1>OLX</h1>
+	<h3>Search for your desired products...</h3>
+</div>
+</body>
+</html>
