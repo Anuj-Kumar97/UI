@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<script src="js/file.js"></script>
+</head>
+<body>
+	<form onsubmit="calc_dob()">
+	Enter age:&nbsp;<input type="text" id="yr">
+	&nbsp; <input type="submit" value="Click to get dob">
+	</form><br>
+	<form onsubmit="get_name()">
+	Enter name:&nbsp;<input type="text" id="name">
+	&nbsp; <input type="submit" value="Greet">
+	</form><br>
+	<form name="divForm" onsubmit="submitDivision()">
+	Enter 1st Number: &nbsp; <input type="number" id="num1"name="num1"> 
+	&nbsp; Enter 2nd Number: &nbsp; <input type="number" id="num2" name="num2"> 
+	&nbsp;&nbsp; <input type="submit" value="Get Result">
+	</form><br>
+	<form onsubmit="submitTable()">
+	Enter number for which table has to be generated:&nbsp;
+	<input type="number" id="table">&nbsp;<input type="submit" value="Get Table">
+	</form><br>
+	<form onsubmit="alpha_check()">
+	Enter the character:&nbsp;<input type="text" id="alph">&nbsp;
+	<input type="submit" value="Check">
+	</form><br>
+	<form onsubmit="prime_check()">
+		Enter 1st Number: &nbsp; <input type="number"
+		id="n1"> &nbsp; Enter 2nd Number:&nbsp; <input type="number" 
+		id="n2"> &nbsp; <input type="submit" value="Result">
+	</form><br>
+	<form onsubmit="fact_check()">
+	Enter the number: &nbsp; <input type="number" id="num"> &nbsp;
+	<input type="submit" value="Factorial">
+	</form><br>
+	<form onsubmit="take_input()">
+	Enter id: &nbsp; <input type="text" id="user"> &nbsp;
+	Enter password: &nbsp; <input type="password" id="pwd"> &nbsp;
+	<input type="submit" value="login">
+	</form>
+</body>
+</html>
